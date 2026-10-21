@@ -1,0 +1,10 @@
+{
+    "//": "VS Code workspace settings for BIT235Workshop2",
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.project.sourcePaths": [
+        "src/main/java"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [],
+    "files.eol": "\n"
+}

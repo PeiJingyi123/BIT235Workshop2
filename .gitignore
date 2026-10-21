@@ -2,10 +2,14 @@
 *.class
 
 # IDE / editor settings
-.vscode/
+# .vscode/settings.json IS committed (Java project config); other .vscode files are local
 .idea/
 *.iml
 
 # OS files
 .DS_Store
 Thumbs.db
+
+# Build output
+bin/
+out/

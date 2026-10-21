@@ -8,14 +8,14 @@ Variables – Primitive Datatypes and String
 
 | Exercise | File | Description |
 |----------|------|-------------|
-| 1.1 | `src/Exercise1_1.java` | Difference of two integers entered by the user (Scanner) |
-| 1.2 | `src/Exercise1_2.java` | Convert Celsius to Fahrenheit (`F = C*9/5 + 32`) |
-| 1.3 | `src/Exercise1_3.java` | Area of a circle (`pi * r^2`, `Math.pow`, pi = 3.14) |
-| 1.4 | `src/Exercise1_4.java` | Compound interest (`A = P * (1 + r)^n`) |
-| 1.5 | `src/Exercise1_5.java` | Volume of the Earth and the Sun, and their ratio |
-| 1.6 | `src/Exercise1_6.java` | Fuel consumption on normal and rough roads |
-| 1.7 | `src/Exercise1_7.java` | Length and value of `"I love java programming".substring(7, 11)` |
-| 1.8 | `src/Exercise1_8.java` | Compare two strings (`equals`), compare first characters (`charAt`) |
+| 1.1 | `src/main/java/Exercise1_1.java` | Difference of two integers entered by the user (Scanner) |
+| 1.2 | `src/main/java/Exercise1_2.java` | Convert Celsius to Fahrenheit (`F = C*9/5 + 32`) |
+| 1.3 | `src/main/java/Exercise1_3.java` | Area of a circle (`pi * r^2`, `Math.pow`, pi = 3.14) |
+| 1.4 | `src/main/java/Exercise1_4.java` | Compound interest (`A = P * (1 + r)^n`) |
+| 1.5 | `src/main/java/Exercise1_5.java` | Volume of the Earth and the Sun, and their ratio |
+| 1.6 | `src/main/java/Exercise1_6.java` | Fuel consumption on normal and rough roads |
+| 1.7 | `src/main/java/Exercise1_7.java` | Length and value of `"I love java programming".substring(7, 11)` |
+| 1.8 | `src/main/java/Exercise1_8.java` | Compare two strings (`equals`), compare first characters (`charAt`) |
 
 ## Answers (short version)
 
@@ -25,10 +25,18 @@ Variables – Primitive Datatypes and String
 2. **1.2 / 1.5** – Integer division is a common trap: `9 / 5` gives `1` and
    `4 / 3` gives `1`, so the code uses `9.0 / 5.0` and `4.0 / 3.0`.
 
-## How to compile and run
+## How to run in VS Code
+
+1. Open the folder `BIT235Workshop2` in VS Code (**File → Open Folder**).
+2. Wait a few seconds for the Java extension to finish loading the project.
+3. Open any `Exercise1_x.java` file and click the **Run** (▷) button above
+   `main`, or press `F5`. The result appears in the Terminal panel.
+4. For Exercise 1.1 and 1.8, type the input in the terminal and press Enter.
+
+## How to compile and run from a terminal
 
 ```bash
-cd src
+cd src/main/java
 javac *.java
 java Exercise1_1      # change the number for each exercise, e.g. java Exercise1_5
 ```
